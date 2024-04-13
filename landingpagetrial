@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Trattoria - Authentic Italian Cuisine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>La Trattoria</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Welcome to La Trattoria, your destination for authentic Italian cuisine in the heart of the city. Our chefs use only the finest ingredients to create mouthwatering dishes that will transport you to the streets of Italy.</p>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="container">
+      <h2>Menu</h2>
+      <div class="menu-item">
+        <h3>Pasta</h3>
+        <p>Choose from a selection of freshly made pasta dishes, including spaghetti carbonara, fettuccine alfredo, and penne arrabbiata.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pizza</h3>
+        <p>Indulge in our wood-fired pizzas topped with the finest ingredients, from classic margherita to gourmet prosciutto and arugula.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Desserts</h3>
+        <p>Save room for dessert and treat yourself to our decadent tiramisu or creamy panna cotta.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Make a reservation or inquire about our catering services.</p>
+      <form action="reservation.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        <input type="submit" value="Make Reservation">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 La Trattoria. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
