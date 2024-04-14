@@ -2,8 +2,15 @@ img {
   max-width: 100%
   display: block;
   margin: 0 auto;
-  padding-top: 100px;
-  padding-left: 60px;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+head {
+  background-color: rgb(14, 102, 85);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -20,7 +27,7 @@ body {
 }
 
 header {
-  background-color: rgb(17, 122, 101);
+  background-color: rgb(0, 128, 128);
   color: #fff;
   padding: 10px 0;
 }
@@ -57,7 +64,7 @@ section h2 {
 }
 
 footer {
-  background-color: rgb(0, 128, 128);
+  background-color: rgb(162, 217, 206);
   color: #fff;
   text-align: center;
   padding: 10px 0;
