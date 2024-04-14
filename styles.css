@@ -6,6 +6,14 @@ img {
   padding-left: 30px;
 }
 
+.overlay {
+  position: absolute:
+  top: 0;
+  left: 0:
+  z-index: 1;
+  opacity: 1:
+}
+
 head {
   background-color: rgb(14, 102, 85);
   font-family: Arial, sans-serif;
