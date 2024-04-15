@@ -37,8 +37,8 @@ body {
 
 .container {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -67,15 +67,15 @@ nav ul li a {
 }
 
 section {
-  padding: 0px 0;
+  padding: 0;
 }
 
 section h2 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .menu-item {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 footer {
